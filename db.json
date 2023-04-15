@@ -1,0 +1,46 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "Title": "The rising sunset",
+      "Aurhor": "Chloe Candice",
+      "Type": "Fiction",
+      "Pages": " 5400"
+    },
+    {
+      "id": 2,
+      "Title": "Tinted sites",
+      "Aurhor": "Austin Caleb",
+      "Type": "Fantasy",
+      "Pages": "3040"
+    },
+    {
+      "id": 3,
+      "Title": "Happy Endings",
+      "Aurhor": "Clara Chile",
+      "Type": "Fan-fiction",
+      "Pages": "2400"
+    },
+    {
+      "id": 4,
+      "Title": "Young souls",
+      "Aurhor": "Augustine Amanda",
+      "Type": "kids-bbook",
+      "Pages": "180"
+    },
+    {
+      "Title": "Happy Endings",
+      "Aurhor": "Clara Chile",
+      "Type": "Fan-fiction",
+      "Pages": "2400",
+      "id": 5
+    },
+    {
+      "Title": "Happy Endings",
+      "Aurhor": "Clara Chile",
+      "Type": "Fan-fiction",
+      "Pages": "2400",
+      "id": 6
+    }
+  ]
+}

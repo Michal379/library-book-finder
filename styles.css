@@ -1,0 +1,105 @@
+body {
+    font-family: sans-serif;
+    color: #444;
+    letter-spacing: 1px;
+}
+h1,h2 {
+    font-weight: normal;
+}
+.wrapper {
+    width: 90%;
+    max-width: 950px;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-shadow: 0px 1px 6px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    padding: 0 0 20px;
+    overflow: hidden;
+    border: 1px solid light gray;
+}
+#my-page {
+    background-color: #eee;
+    padding: 10px 0;
+}
+#my-page h1,#my-page p{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+#my-page input{
+    width: 90%;
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    font-size: 18px;
+    color: #444;
+}
+#book-list, #add-book, #tabbed-content{
+    margin: 30px;
+}
+#book-list ul, #tabbed-content ul{
+    list-style-type: none;
+    padding: 0;
+}
+#book-list li{
+    padding: 20px;
+    border-left: 6px solid, #ddd;
+    margin: 20px 10px;
+}
+#book-list li:hover{
+    border-color:teal; 
+}
+.delete{
+    float: right;
+    background-color: teal;
+    padding: 6px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+}
+.delete:hover{
+    background: rgb(5, 58, 58);
+}
+.author{
+    margin:10px;
+}
+#add-books{
+    width: 400px;
+    margin: 0 auto;
+}
+#add-books input{
+    display: block;
+    margin:20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    border-radius: 4px 0 0 4px;
+    box-sizing: border-box;
+    width: 300px;
+    float: left;
+}
+#add-books button{
+    border: 1px solid teal;
+    background: teal;
+    padding: 10px 20px;
+    font-size: 18px;
+    display: inline-block;
+    margin: 20px 0;
+    color: white;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    width: 100px;
+    float: left;
+}
+#add-books button:hover{
+    background: rgb(5, 58, 58);
+ 
+}
+#add-books:after{
+    content:'';
+    display: block;
+    clear: both;
+}
